@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Generic-->
+    <dimen name="none">0dp</dimen>
+    <dimen name="xxs">1dp</dimen>
+    <dimen name="xs">2dp</dimen>
+    <dimen name="sm">4dp</dimen>
+    <dimen name="md">8dp</dimen>
+    <dimen name="lg">16dp</dimen>
+    <dimen name="xl">32dp</dimen>
+    <dimen name="xxl">64dp</dimen>
+
+    <!--Standard-->
+    <dimen name="std_10">10dp</dimen>
+    <dimen name="std_20">20dp</dimen>
+    <dimen name="std_30">30dp</dimen>
+    <dimen name="std_40">40dp</dimen>
+    <dimen name="std_50">50dp</dimen>
+    <dimen name="std_60">60dp</dimen>
+    <dimen name="std_70">70dp</dimen>
+    <dimen name="std_90">90dp</dimen>
+    <dimen name="std_100">100dp</dimen>
+    <dimen name="std_125">125dp</dimen>
+    <dimen name="std_150">150dp</dimen>
+    <dimen name="std_175">175dp</dimen>
+    <dimen name="std_200">200dp</dimen>
+    <dimen name="std_250">250dp</dimen>
+    <dimen name="std_300">300dp</dimen>
+
+</resources>
