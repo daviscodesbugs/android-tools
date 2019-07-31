@@ -64,4 +64,16 @@ object InterfaceUtil {
         }
     }
 
+    fun <T> makeDropDownAdapter(
+        context: Context?,
+        layoutResource: Int,
+        list: List<T>?
+    ): ArrayAdapter<T>? {
+        return context?.run {
+            val adapter = ArrayAdapter(this, layoutResource, list ?: ArrayList())
+            adapter.setDropDownViewResource(R.layout.spinner_item)
+            adapter
+        }
+    }
+
 }
