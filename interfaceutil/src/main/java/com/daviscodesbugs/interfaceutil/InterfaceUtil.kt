@@ -5,9 +5,9 @@ package com.daviscodesbugs.interfaceutil
 import android.app.Activity
 import android.content.Context
 import android.content.DialogInterface
-import android.support.v4.app.Fragment
 import android.view.inputmethod.InputMethodManager
 import android.widget.ArrayAdapter
+import androidx.fragment.app.Fragment
 
 object InterfaceUtil {
 
@@ -44,8 +44,8 @@ object InterfaceUtil {
         confirm: String,
         cancel: String,
         handler: DialogInterface.OnClickListener
-    ): android.support.v7.app.AlertDialog {
-        val builder = android.support.v7.app.AlertDialog.Builder(context)
+    ): androidx.appcompat.app.AlertDialog {
+        val builder = androidx.appcompat.app.AlertDialog.Builder(context)
         builder.setTitle(title)
         builder.setMessage(message)
         builder.setPositiveButton(confirm, handler)

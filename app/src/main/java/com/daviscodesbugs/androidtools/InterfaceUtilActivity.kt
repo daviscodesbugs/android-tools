@@ -1,8 +1,8 @@
 package com.daviscodesbugs.androidtools
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.daviscodesbugs.interfaceutil.InterfaceUtil
 import kotlinx.android.synthetic.main.activity_interface_util.*
 import kotlin.concurrent.thread
